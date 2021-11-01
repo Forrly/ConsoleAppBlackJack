@@ -9,9 +9,10 @@ namespace ConsoleAppBlackJackTDDTesting
     {
         private Game _game;
         [TestInitialize()]
-        public void createTestGame()
+        public void initializeGame()
         {
             _game = new Game();
+            _game.Play();
         }
     }
 }
