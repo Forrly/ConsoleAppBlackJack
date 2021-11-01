@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "DPnJyj9UATmozfyIPzllRytszbYRw+nqE/+rJ18mfYmZVE1mhPzWdgxggFb0GZr+K8pVmJ1qw5fPKi9Dj/cpBA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\remyp\\source\\repos\\ConsoleAppBlackJackTDD\\ConsoleAppBlackJackTDD\\ConsoleAppBlackJackTDD.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\remyp\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.18\\microsoft.netcore.app.host.win-x64.3.1.18.nupkg.sha512"
+  ],
+  "logs": []
+}
