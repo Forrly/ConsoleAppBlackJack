@@ -4,7 +4,8 @@ using System.Text;
 
 namespace ConsoleAppBlackJackTDD
 {
-    public class Dealer
-    {
+    class Dealer : Player {
+        public Dealer() : base() {}
+
     }
 }
