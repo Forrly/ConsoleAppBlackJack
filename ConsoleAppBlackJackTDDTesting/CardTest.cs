@@ -4,6 +4,7 @@ using ConsoleAppBlackJackTDD;
 
 namespace ConsoleAppBlackJackTDDTesting
 {
+    [TestClass]
     public class CardTest
     {
         private Card _card;
