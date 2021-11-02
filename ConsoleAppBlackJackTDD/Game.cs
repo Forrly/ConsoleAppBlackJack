@@ -6,5 +6,12 @@ namespace ConsoleAppBlackJackTDD
 {
     public class Game
     {
+        Deck deck;
+        public Game() {
+        }
+
+        public void Play() {
+            
+        }
     }
 }
