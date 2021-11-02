@@ -5,14 +5,15 @@ using ConsoleAppBlackJackTDD;
 namespace ConsoleAppBlackJackTDDTesting
 {
     [TestClass]
-    class GameTest
+    public class GameTest
     {
         private Game _game;
+        [TestMethod]
         [TestInitialize()]
-        public void initializeGame()
+        public void Check_ConstructorGame()
         {
             _game = new Game();
-            _game.Play();
         }
+        
     }
 }
