@@ -30,5 +30,18 @@ namespace ConsoleAppBlackJackTDDTesting
             _arr.Add(_card);
             Assert.AreEqual(_arr[0], _hand.cards[0]);
         }
+        [TestMethod]
+        public void Check_TotalValueAllCardsInHand()
+        {
+            Card _card1, _card2, _card3;
+            _card1 = new Card(7);
+            _card2 = new Card(4);
+            _card3 = new Card(10);
+            _hand.AddCard(_card1);
+            _hand.AddCard(_card2);
+            _hand.AddCard(_card3);
+            int _totalValue = _hand.Total();
+            Assert.AreEqual(21, _totalValue);
+        }
     }
 }
