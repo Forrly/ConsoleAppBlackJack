@@ -8,11 +8,18 @@ namespace ConsoleAppBlackJackTDDTesting
     public class PlayerTest
     {
         private Player _player;
-        private Hand _hand;
+        [TestMethod]
         [TestInitialize()]
-        public void createTestPlayer()
+        public void Check_ConstructorPlayer()
         {
             _player = new Player();
+        }
+        [TestMethod]
+        public void Check_CountOfCardsAfterDealPlayer()
+        {
+            Deck _deck = new Deck();
+            _player.DealCards(2,_deck);
+            Assert.AreEqual(2, _player.hand.cards.Count);
         }
 
     }
