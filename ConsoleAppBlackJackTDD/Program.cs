@@ -4,9 +4,11 @@ namespace ConsoleAppBlackJackTDD
 {
     class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Welcome to C# BlackJack");
+            Game game = new Game();
+            game.Play();
         }
     }
 }
